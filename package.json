@@ -1,0 +1,38 @@
+{
+  "name": "electron_web",
+  "version": "1.0.0",
+  "description": "Esto es siguiendo la documentacion de la web de electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hacedor2003/electron_web.git"
+  },
+  "keywords": [
+    "Electron",
+    "Doc"
+  ],
+  "author": "Hacedor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hacedor2003/electron_web/issues"
+  },
+  "homepage": "https://github.com/Hacedor2003/electron_web#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "electron": "^29.1.4"
+  },
+  "dependencies": {
+    "@electron-forge/plugin-fuses": "^7.3.0",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
